@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    height: 100vh;
+    background: url("pattern_herringbone-8_3_5_0-0_180_2__8b4513_ffe3c2.png");
+}
+
+#display{
+    width: 100%;
+    padding: 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: bisque;
+    color: saddlebrown;
+    height: 50px;
+    font-size: 5rem;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    background-color: saddlebrown;
+    border: none;
+    border-radius: 50%;
+    color: whitesmoke;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#calculator{
+    text-align: center;
+    max-width: 600px;
+    background-color: burlywood;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#buttons{
+    padding: 25px;   
+    border: none;
+}
+
+button:active{
+    background-color: #ffe4c4;
+    color: saddlebrown;
+}
+
+.c{
+    margin-left: 0;
+    margin-right: 365px;
+}
+
+.operate-btn{
+    background-color: bisque;
+    color: #8b4513;
+}
+
+.operate-btn:active{
+    background-color: saddlebrown;
+    color:bisque;
+}
